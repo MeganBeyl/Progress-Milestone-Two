@@ -3,16 +3,23 @@ html,body,h3,h1{
     padding:0;
 }
 
+.active{
+    font-family: 'Roboto', sans-serif;
+}
+
 nav{
     width:100%;
-    height:100px;
+    height:90px;
     background-color: lightgrey;
+    padding-top:5px;
+    padding-bottom:10px;
 }
 
 .logo{
     float:left;
     font-size:10px;
     padding-left:5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo h1{
@@ -21,11 +28,10 @@ nav{
 }
 
 .nav-con{
-    width:250px;
+    width:70%;
     height:40px;
     float:left;
-    margin-top:5px;
-  
+    margin-top:10px;
 }
 
 .nav-con ul{
@@ -54,30 +60,47 @@ nav{
     cursor:pointer;
 }
 
+.search-bar{
+    width:50px;
+    height:35px;
+    float:right;
+    border-radius:60%;
+    padding-top:15px;
+    margin-top:15px;
+}
+
 h2{
-    font-size:15px;
+    font-size:25px;
+    padding-left: 35px;
+    padding-top:25px;
 }
 
 header{
     width:100%;
-    height:560px;
+    height:600px;
     color:black;
     text-align:left;
+    background-image: url("../assets/586413-revisited-dreams-vol-1-acoustic.jpg");
+    background-size: cover;
+    background-position: center;
     padding-left:10%;
     padding-right:10%;
     padding-top:80px;
-    background-color: lightgray;
+   
 }
 
 header h1{
     padding-bottom:50px;
+    color:white;
+}
+
+header h2{
+    color:white;
 }
 
 .col-3{
     width: 300px;
     height:300px;
-    padding-left: 25px;
-    padding-right: 25px;
     background-color: lightgray;
     text-align:center;
     margin-left:3%;
@@ -86,18 +109,25 @@ header h1{
     margin-bottom:2%;
 }
 
+.col-4{
+    width:40%;
+    height:500px;
+    float:left;
+    margin:2%;
+    text-align:center;
+    background-image: url("../assets/ab67616d0000b27382f7a1b5007d708c8838de25.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
 .col-6{
-    width:50%;
+    width:40%;
     height:500px;
     background-color: rgb(191, 188, 188);
-    padding-top:35px;
-    padding-bottom:35px;
-    padding-left:10px;
-    padding-right:10px;
-    margin-bottom:2%;
     text-align:center;
     margin-left:5%;
     margin-bottom:5%;
+    float:left;
 }
 
 .col-6 p{
@@ -105,22 +135,40 @@ header h1{
     padding-right:20px;
 }
 
-.col-box{
-    width:100%;
+.col-8{
+    width:50%;
     height:500px;
-    background-color: white;
-    float:left;
+    background-color: gray;
+    margin:2%;
+    float:right;
 }
 
+.col-12{
+    height:100px;
+}
 
+.col-12 p{
+    font-size:10px;
+}
+
+.col-box{
+    width:60%;
+    height:500px;
+    background-color: gray;
+    padding-left:122px;
+    padding-right:10%;
+    float:left;
+    text-align:left;
+}
 
 .overlay{
-    width: 400px;
-    height: 200px;
-    background-color: grey;
-    float:right;
-    padding-left:50px;
-    margin-left:2%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    padding-left: 10%;
+    padding-right:10%;
+    padding-top: 50px;
+    padding-bottom:50px;
 }
 
 .col-box2{
@@ -130,34 +178,239 @@ header h1{
     text-align:left;
     margin-left:5%;
     margin-top:25px;
-
 }
 
+.col-box3{
+    width:400px;
+    height: 200px;
+    background-color: grey;
+    float:right;
+    margin-left:2%;
+}
+
+.album-one{
+    width:100%;
+    height:300px;
+    background-image: url("../assets/264x264Viper.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.album-two{
+    width:100%;
+    height:300px;
+    background-image: url("../assets/264x264Derivakat.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.album-three{
+    width:100%;
+    height:300px;
+    background-image: url("../assets/California_Dreaming.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.album-four{
+    width:100%;
+    height:300px;
+    background-image: url("../assets/au_ra-panic-room-cover-art.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.album-five{
+    width:100%;
+    height:300px;
+    background-image: url("../assets/ab67616d0000b27305e5dcfed62d4516d1d54581.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.album-six{
+    width:100%;
+    height:300px;
+    background-image: url("../assets/264x264Sleeping@Last.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.album-seven{
+    width:100%;
+    height:300px;
+    background-image: url("../assets/264x264.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.album-eight{
+    width:100%;
+    height:300px;  
+    background-image: url("../assets/artworks-N6df8xvMky7j-0-t500x500.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.album-nine{
+    width:100%;
+    height:300px;
+    background-image: url("../assets/ab67616d0000b27334702dd79ebdfb24ffbefb53.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.album-ten{
+    width:100%;
+    height:300px;  
+    background-image: url("../assets/ab67616d0000b273f45d322f292c02c79d789d43.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.album-eleven{
+    width:100%;
+    height:300px;
+    background-image: url("../assets/500x500.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.album-twelve{
+    width:100%;
+    height:300px; 
+    background-image: url("../assets/Unknown.jpeg");
+    background-size: cover;
+    background-position: center;
+}
 
 form{
-    width:400px;
-    height:450;
+    width:100%;
+    height:500px;
     float:left;
     color:white;
+    background-color: rgb(251, 133, 0);
+    text-align: center;
+    padding-bottom:5px;
+    border-radius:15px;
+    
+}
+
+label{
+    width:80px;
+    height:50px;
+    padding-top:25px;
+    padding-bottom: 20px;
+    margin:2%;
+    text-align: left;
+}
+
+form h3{
+    color:black;
+}
+
+select{
+    width:80%;
+    height:83px;
+}
+
+textarea{
+    width:250px;
+    height:80px;
+    border-radius: 50px;
+    text-align:left;
+    padding-top: 5px;
+    padding-left:9%;
+    padding-right:9%;
+    margin: 4%;
+}
+
+input{
+    width:150px;
+    height:25px;
+    border-radius: 25px;
+    padding-left:10%;
+    padding-right:10%;
+    margin:1%;
+    text-align: center;
+}
+
+.Your-Name{
+    background-color: gray;
+    border-radius:15px;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-align:left;
+}
+
+.Your-Email{
+    background-color: gray;
+    border-radius:15px;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin:2%;
+    text-align:left;
+}
+
+button{
+    width:200px;
+    height:50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 15px;
     background-color: black;
+    border-color: black;
+    color:white;
+    margin:2%;
+    float:right;
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+    border-color: black;
+}
+
+.submit{
+    width:100px;
+    height:120px;
+    padding-left:10%;
+    padding-right:10%;
 }
 
 footer{
-    width:90%;
+    width:83%;
     height:100px;
     background-color: white;
     text-align:left;
     padding-left:8%;
     padding-right:8%;
+    margin-top:1%;
     color:black;
     font-size:25px;
+}
+
+footer p{
+    width:100px;
+    height:100px;
+}
+
+.col-12 p{
+    font-size:20px;
+    padding-top:20px;
 }
 
 .btn-two{
     width:200px;
     height:35px;
-    background-color: black;
-    border:10px solid black;
+    background-color: red;
+    border:10px solid red;
     border-radius: 5px;
     text-align:center;
     font-size: 15px;
@@ -172,6 +425,7 @@ footer{
 
 .btn-two:hover{
     cursor:pointer;
+    padding-top:10px;
     border:2px solid;
     background-color: white;
     color:black;
@@ -206,4 +460,59 @@ footer{
 .btn-three{
     padding-left:35%;
     padding-bottom: 50px;
+}
+
+.social-media{
+    width:200px;
+    height:40px;
+    margin-top:10px;
+    margin-bottom:10px;
+    float:right;
+}
+
+.social{
+    width:40px;
+    height:40px;
+    float:right;
+    border: 2px solid black;
+    margin:2px;
+    text-align:center;
+    padding-top:12px;
+    font-weight:bold;
+    color:black;
+    border-radius:50%;
+}
+
+.social:hover{
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+
+.player-line{
+    width: 90%;
+    height:50px;
+    margin-top: 1%;
+    margin-left:2%;
+}
+
+.line{
+    width:100%;
+    height:3px;
+    background-color: black;
+}
+
+.inner-line{
+    height:5px;
+    width:50%;
+    background-color: crimson;
+}
+
+.marker{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: crimson;
+    margin-left: 30%;
+    margin-top: -12px;
 }
