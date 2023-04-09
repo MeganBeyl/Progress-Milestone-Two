@@ -10,21 +10,27 @@ html,body,h3,h1{
 nav{
     width:100%;
     height:90px;
-    background-color: lightgrey;
     padding-top:5px;
     padding-bottom:10px;
 }
 
 .logo{
+    width: 300px;
+    height: 150px;
     float:left;
     font-size:10px;
-    padding-left:5%;
-    font-family: 'Roboto', sans-serif;
+    padding-left:15px;
+    padding-right:15px;
 }
 
-.logo h1{
-    font-size:25px;
-    padding-top: 25px;
+.stream{
+    width:100%;
+    height:80px;
+    padding-left:15px;
+    padding-right:15px;
+    background-image: url("../assets/stream_logo_black.png");
+    background-position: center;
+    background-size:contain;
 }
 
 .nav-con{
@@ -41,7 +47,6 @@ nav{
 .nav-con li{
     float:left;
     height:30px;
-    background-color: lightgray;
     border-radius:5px;
     font-size:15px;
     color:black;
@@ -98,32 +103,113 @@ header h2{
     color:white;
 }
 
+.col-1{
+    width:100%;
+    height:80px;
+    background-color: lightgray;
+    border-bottom-style:groove;
+    border-bottom-color: black;
+}
+
+.col-1 ul{
+    list-style:none;
+}
+
+.col-1 li{
+    height:30px;
+    float:left;
+    color:black;
+    padding-left:2%;
+    padding-right:2%;
+    margin-right:10px;
+    margin-left:10px;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+
+.col-2{
+    width:100%;
+    height:80px;
+    background-color: lightgray;
+    border-bottom-style:groove;
+    border-bottom-color: black;
+}
+
+.col-2 ul{
+    list-style:none;
+}
+
+.col-2 li{
+    height:30px;
+    float:left;
+    color:black;
+    padding-left:2%;
+    padding-right:2%;
+    margin-right:10px;
+    margin-left:10px;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+
 .col-3{
     width: 300px;
     height:300px;
     background-color: lightgray;
     text-align:center;
-    margin-left:3%;
-    margin-right:3%;
+    margin-left:2%;
+    margin-right:2%;
     margin-top:2%;
     margin-bottom:2%;
 }
 
 .col-4{
     width:40%;
-    height:500px;
+    height:600px;
     float:left;
     margin:2%;
     text-align:center;
     background-image: url("../assets/ab67616d0000b27382f7a1b5007d708c8838de25.jpeg");
     background-size: cover;
     background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10%;
+}
+
+.col-4 h1{
+    font-size:80px;
+}
+
+.play-logo{
+    width: 100px;
+    height: 100px;
+    margin-left:40%;
+}
+
+.col-5{
+    width:100%;
+    height:50px;
+    background-color: lightgray;
+}
+
+.col-5 ul{
+    list-style:none;
+}
+
+.col-5 li{
+    height:30px;
+    float:left;
+    color:black;
+    padding-left:5%;
+    padding-right:8%;
+    margin-right:10px;
+    margin-left:10px;
+    padding-top:8px;
+    padding-bottom:8px;
 }
 
 .col-6{
     width:40%;
     height:500px;
-    background-color: rgb(191, 188, 188);
     text-align:center;
     margin-left:5%;
     margin-bottom:5%;
@@ -138,7 +224,6 @@ header h2{
 .col-8{
     width:50%;
     height:500px;
-    background-color: gray;
     margin:2%;
     float:right;
 }
@@ -152,13 +237,18 @@ header h2{
 }
 
 .col-box{
-    width:60%;
+    width:85%;
     height:500px;
     background-color: gray;
-    padding-left:122px;
-    padding-right:10%;
+    padding-left:72px;
+    padding-right:8%;
     float:left;
     text-align:left;
+}
+
+.col-box p{
+    padding-left: 5px;
+    padding-right: 5px;;
 }
 
 .overlay{
@@ -171,6 +261,33 @@ header h2{
     padding-bottom:50px;
 }
 
+.contact{
+    width: 100%;
+    height:50px;
+    margin-top:1%;
+}
+
+.email-icon{
+    float:left;
+}
+
+.email-info{
+    float:left;
+}
+
+.phone-icon{
+    float:left;
+}
+
+.phone-info{
+    float:left;
+}
+
+.map-block{
+    width:80%;
+    height:200px;
+}
+
 .col-box2{
     width:500px;
     height:300px;
@@ -181,11 +298,24 @@ header h2{
 }
 
 .col-box3{
-    width:400px;
-    height: 200px;
+    width:450px;
+    height: 250px;
     background-color: grey;
     float:right;
-    margin-left:2%;
+    margin-left:1%;
+}
+
+.col-box4{
+    width:100%;
+    height:350px;
+    float:right;
+    background-color: gray;
+}
+
+.col-box5{
+    width:100%;
+    height:50px;
+    background-color: lightgray;
 }
 
 .album-one{
@@ -285,9 +415,9 @@ header h2{
 }
 
 form{
-    width:100%;
+    width:70%;
     height:500px;
-    float:left;
+    float:right;
     color:white;
     background-color: rgb(251, 133, 0);
     text-align: center;
@@ -336,6 +466,8 @@ input{
 }
 
 .Your-Name{
+    width:250px;
+    height:100px;
     background-color: gray;
     border-radius:15px;
     padding-left:5%;
@@ -346,6 +478,8 @@ input{
 }
 
 .Your-Email{
+    width:250px;
+    height:100px;
     background-color: gray;
     border-radius:15px;
     padding-left:10%;
@@ -357,13 +491,13 @@ input{
 }
 
 button{
-    width:200px;
-    height:50px;
+    width:70px;
+    height:70px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top:10px;
     padding-bottom:10px;
-    border-radius: 15px;
+    border-radius: 50%;
     background-color: black;
     border-color: black;
     color:white;
@@ -397,7 +531,7 @@ footer{
 }
 
 footer p{
-    width:100px;
+    width:200px;
     height:100px;
 }
 
@@ -463,7 +597,7 @@ footer p{
 }
 
 .social-media{
-    width:200px;
+    width:250px;
     height:40px;
     margin-top:10px;
     margin-bottom:10px;
@@ -471,16 +605,9 @@ footer p{
 }
 
 .social{
-    width:40px;
-    height:40px;
     float:right;
-    border: 2px solid black;
-    margin:2px;
-    text-align:center;
-    padding-top:12px;
-    font-weight:bold;
-    color:black;
-    border-radius:50%;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .social:hover{
@@ -515,4 +642,48 @@ footer p{
     background-color: crimson;
     margin-left: 30%;
     margin-top: -12px;
+}
+
+.playlist{
+    width:100%;
+    height:150px;
+    text-align:center;
+}
+
+.current-play{
+    width:100%;
+    height:300px;
+}
+
+.current-play h3{
+    font-size:25px;
+}
+
+.current-play p{
+    font-size:15px;
+}
+
+.album-play{
+    width:50px;
+    height:50px;
+    background-color: lightgray;
+}
+
+.bottom-play{
+    width:100%;
+    height:200px;
+    margin:1%;
+}
+
+.play-info{
+    float:left;
+}
+
+.play-info2{
+    float:left;
+}
+
+.play-list{
+    width:100%;
+    float:left;
 }
