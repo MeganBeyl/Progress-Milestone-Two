@@ -3,8 +3,16 @@ html,body,h3,h1{
     padding:0;
 }
 
+body{
+    background-color: black;
+}
+
 .active{
     font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    color:white;
 }
 
 nav{
@@ -15,7 +23,7 @@ nav{
 }
 
 .logo{
-    width: 300px;
+    width: 200px;
     height: 150px;
     float:left;
     font-size:10px;
@@ -25,16 +33,16 @@ nav{
 
 .stream{
     width:100%;
-    height:80px;
+    height:50px;
     padding-left:15px;
     padding-right:15px;
-    background-image: url("../assets/stream_logo_black.png");
+    background-image: url("../assets/stream_logo_white.png");
     background-position: center;
-    background-size:contain;
+    background-size:cover;
 }
 
 .nav-con{
-    width:70%;
+    width:80%;
     height:40px;
     float:left;
     margin-top:10px;
@@ -49,7 +57,7 @@ nav{
     height:30px;
     border-radius:5px;
     font-size:15px;
-    color:black;
+    color:white;
     padding-left:20px;
     padding-right:20px;
     margin-right:10px;
@@ -71,8 +79,10 @@ nav{
     float:right;
     border-radius:60%;
     padding-top:15px;
-    margin-top:15px;
+    margin-top:5px;
+    margin-bottom:15px;
 }
+
 
 h2{
     font-size:25px;
@@ -106,7 +116,8 @@ header h2{
 .col-1{
     width:100%;
     height:80px;
-    background-color: lightgray;
+    padding-top: 10px;
+    background-color: white;
     border-bottom-style:groove;
     border-bottom-color: black;
 }
@@ -130,7 +141,8 @@ header h2{
 .col-2{
     width:100%;
     height:80px;
-    background-color: lightgray;
+    padding-top: 10px;
+    background-color: white;
     border-bottom-style:groove;
     border-bottom-color: black;
 }
@@ -152,9 +164,9 @@ header h2{
 }
 
 .col-3{
-    width: 300px;
+    width: 330px;
     height:300px;
-    background-color: lightgray;
+    background-color: black;
     text-align:center;
     margin-left:2%;
     margin-right:2%;
@@ -187,8 +199,10 @@ header h2{
 
 .col-5{
     width:100%;
-    height:50px;
-    background-color: lightgray;
+    height:70px;
+    background-color: white;
+    border-bottom-style:groove;
+    border-bottom-color: black;
 }
 
 .col-5 ul{
@@ -208,11 +222,11 @@ header h2{
 }
 
 .col-6{
-    width:40%;
+    width:44%;
     height:500px;
     text-align:center;
-    margin-left:5%;
-    margin-bottom:5%;
+    margin-left:2%;
+    margin-bottom:3%;
     float:left;
 }
 
@@ -237,7 +251,7 @@ header h2{
 }
 
 .col-box{
-    width:85%;
+    width:65%;
     height:500px;
     background-color: gray;
     padding-left:72px;
@@ -247,8 +261,10 @@ header h2{
 }
 
 .col-box p{
+    padding-top: 15px;
+    padding-bottom: 25px;
     padding-left: 5px;
-    padding-right: 5px;;
+    padding-right: 5px;
 }
 
 .overlay{
@@ -284,8 +300,8 @@ header h2{
 }
 
 .map-block{
-    width:80%;
-    height:200px;
+    width:70%;
+    height:150px;
 }
 
 .col-box2{
@@ -298,18 +314,52 @@ header h2{
 }
 
 .col-box3{
-    width:450px;
-    height: 250px;
+    width:70%;
+    height: 300px;
     background-color: grey;
     float:right;
-    margin-left:1%;
+    margin-top:-10px;
+    margin-bottom:-60px;
+    margin-right:600px;
 }
 
 .col-box4{
     width:100%;
-    height:350px;
+    height:500px;
     float:right;
-    background-color: gray;
+    text-align:center;
+    background-color: rgb(103, 32, 32);
+    margin-top:-60px;
+    margin-bottom:-70px;
+    margin-right:180px;
+}
+
+.col-box4 h2{
+    margin-bottom:2%;
+    
+}
+
+.col-box4 h1{
+    margin-bottom:5%;
+    
+}
+
+.col-box4 p{
+    font-size:20px;
+    text-align: right;
+    padding-left:12%;
+    padding-right: 12%;
+    float:right;
+}
+
+.album-text{
+    width:80%;
+    height:450px;
+    color:white;
+    margin-top:-200px;
+    margin-bottom: 15%;
+    margin-right:5%;
+    float: right;
 }
 
 .col-box5{
@@ -320,7 +370,7 @@ header h2{
 
 .album-one{
     width:100%;
-    height:300px;
+    height:100%;
     background-image: url("../assets/264x264Viper.jpeg");
     background-size: cover;
     background-position: center;
@@ -328,7 +378,7 @@ header h2{
 
 .album-two{
     width:100%;
-    height:300px;
+    height:100%;
     background-image: url("../assets/264x264Derivakat.jpeg");
     background-size: cover;
     background-position: center;
@@ -356,6 +406,7 @@ header h2{
     background-image: url("../assets/ab67616d0000b27305e5dcfed62d4516d1d54581.jpeg");
     background-size: cover;
     background-position: center;
+    
 }
 
 .album-six{
@@ -415,15 +466,16 @@ header h2{
 }
 
 form{
-    width:70%;
+    width:45%;
     height:500px;
     float:right;
     color:white;
-    background-color: rgb(251, 133, 0);
+    background-color: rgb(84, 121, 200);
     text-align: center;
     padding-bottom:5px;
     border-radius:15px;
-    
+    margin-top: -70%;
+    margin-right: -25%;
 }
 
 label{
@@ -445,7 +497,7 @@ select{
 }
 
 textarea{
-    width:250px;
+    width:300px;
     height:80px;
     border-radius: 50px;
     text-align:left;
@@ -456,8 +508,8 @@ textarea{
 }
 
 input{
-    width:150px;
-    height:25px;
+    width:250px;
+    height:36px;
     border-radius: 25px;
     padding-left:10%;
     padding-right:10%;
@@ -491,18 +543,18 @@ input{
 }
 
 button{
-    width:70px;
+    width:150px;
     height:70px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top:10px;
     padding-bottom:10px;
-    border-radius: 50%;
+    border-radius: 30px;
     background-color: black;
     border-color: black;
     color:white;
     margin:2%;
-    float:right;
+    
 }
 
 button:hover{
@@ -521,12 +573,12 @@ button:hover{
 footer{
     width:83%;
     height:100px;
-    background-color: white;
+    background-color:black;
     text-align:left;
-    padding-left:8%;
-    padding-right:8%;
-    margin-top:1%;
-    color:black;
+    padding-left:5%;
+    padding-right:5%;
+    margin-top:10%;
+    color:white;
     font-size:25px;
 }
 
@@ -596,6 +648,58 @@ footer p{
     padding-bottom: 50px;
 }
 
+.btn-four{
+    width:70px;
+    height:70px;
+    padding-top:10px;
+    padding-left:10px;
+    border-radius: 50%;
+    border-color: black;
+    color:white;
+}
+
+.btn-five{
+    width:250px;
+    height:200px;
+    float:right;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+
+.pop-up{
+    width:100%;
+    height:100px;
+    background-color: gray;
+    padding-top: 1%;
+    margin-block: 50%;
+
+}
+
+.pop-text p{
+    width:100%;
+    font-size:25px;
+    color:white;
+}
+
+.pop-text h3{
+    width:100%;
+    font-size:20px;
+    color:white;
+}
+
+.pop-text{
+    width:60%;
+    height:100px;
+}
+
+.btn-heart{
+    width:40%;
+    height:50px;
+    margin-top: -80px;
+    float:right;
+}
+
 .social-media{
     width:250px;
     height:40px;
@@ -626,12 +730,12 @@ footer p{
 .line{
     width:100%;
     height:3px;
-    background-color: black;
+    background-color: white;
 }
 
 .inner-line{
     height:5px;
-    width:50%;
+    width:30%;
     background-color: crimson;
 }
 
@@ -653,6 +757,7 @@ footer p{
 .current-play{
     width:100%;
     height:300px;
+    margin-top: 50px;
 }
 
 .current-play h3{
@@ -664,15 +769,39 @@ footer p{
 }
 
 .album-play{
+    width:80px;
+    height:80px;
+    background-image: url("../assets/ab67616d0000b27382f7a1b5007d708c8838de25.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.album-extra{
+    width:150px;
+    height:50px;
+    font-size: 40px;
+    color:white;
+    float:right;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+.extra{
+    color:white;
+}
+
+.album-play2{
     width:50px;
     height:50px;
-    background-color: lightgray;
+    padding-left: 40%;
+    padding-top:60px;
 }
 
 .bottom-play{
     width:100%;
     height:200px;
-    margin:1%;
+    margin-top:-10%;
+    margin-left:2%;
 }
 
 .play-info{
@@ -681,9 +810,19 @@ footer p{
 
 .play-info2{
     float:left;
+    color:white;
+    margin:1%;
 }
 
 .play-list{
     width:100%;
     float:left;
+}
+
+.graph-icon{
+    width:50px;
+    height:50px;
+    background-image: url("../assets/images.png");
+    background-size: cover;
+    background-position: center;
 }
