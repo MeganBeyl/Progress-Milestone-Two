@@ -42,7 +42,7 @@ nav{
 }
 
 .nav-con{
-    width:80%;
+    width:85%;
     height:40px;
     float:left;
     margin-top:10px;
@@ -68,19 +68,27 @@ nav{
 }
 
 .nav-con li:hover{
- background-color:black;
+    background-color:black;
     color:white;
     cursor:pointer;
+    font-size:16px;
 }
 
 .search-bar{
-    width:50px;
+    width:20%;
     height:35px;
     float:right;
-    border-radius:60%;
-    padding-top:15px;
-    margin-top:5px;
+    border-radius:30px;
+    background-color: white;
+    color:black;
+    padding-top:5px;
+    padding-left:15px;
     margin-bottom:15px;
+}
+
+.search-bar p{
+    font-size:15px;
+    color:black;
 }
 
 
@@ -368,6 +376,42 @@ header h2{
     background-color: lightgray;
 }
 
+.album-covers{
+
+}
+
+.album{
+    height: 277px;
+    width: 277px;
+    margin-top: 30px;
+    position:relative;
+}
+
+.album-overlay{
+    width:100%;
+    height:207px;
+    padding-top:69px;
+    background-color: rgba(24, 25, 25, 0.5);
+    cursor:pointer;
+}
+
+.album-hover{
+    width:277px;
+    height:277px;
+    position:relative;
+}
+
+.album-hover:hover{
+    background-color: rgba(24, 25, 25, 0.5);
+    cursor:pointer;
+    color:white;
+}
+
+.album-info{
+
+}
+
+
 .album-one{
     width:100%;
     height:100%;
@@ -648,6 +692,10 @@ footer p{
     padding-bottom: 50px;
 }
 
+.btn-three:hover{
+    color:black;
+}
+
 .btn-four{
     width:70px;
     height:70px;
@@ -695,10 +743,12 @@ footer p{
 
 .btn-heart{
     width:40%;
-    height:50px;
+    height:40px;
     margin-top: -80px;
+    background-image: url("assets/heart_icon_smal.svg");
     float:right;
 }
+
 
 .social-media{
     width:250px;
