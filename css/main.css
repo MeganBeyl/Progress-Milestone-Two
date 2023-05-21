@@ -122,8 +122,7 @@ header h2{
 }
 
 .col-1{
-    width:100%;
-    height:80px;
+    height:70px;
     padding-top: 10px;
     background-color: white;
     border-bottom-style:groove;
@@ -147,8 +146,7 @@ header h2{
 }
 
 .col-2{
-    width:100%;
-    height:80px;
+    height:70px;
     padding-top: 10px;
     background-color: white;
     border-bottom-style:groove;
@@ -172,18 +170,18 @@ header h2{
 }
 
 .col-3{
-    width: 330px;
+    width: 20%;
     height:300px;
-    background-color: black;
+    background-color: white;
     text-align:center;
     margin-left:2%;
-    margin-right:2%;
-    margin-top:2%;
+    margin-right:1%;
     margin-bottom:2%;
+    
 }
 
 .col-4{
-    width:40%;
+    width:42%;
     height:600px;
     float:left;
     margin:2%;
@@ -206,28 +204,13 @@ header h2{
 }
 
 .col-5{
-    width:100%;
     height:70px;
     background-color: white;
     border-bottom-style:groove;
     border-bottom-color: black;
-}
-
-.col-5 ul{
-    list-style:none;
-}
-
-.col-5 li{
-    height:30px;
     float:left;
-    color:black;
-    padding-left:5%;
-    padding-right:8%;
-    margin-right:10px;
-    margin-left:10px;
-    padding-top:8px;
-    padding-bottom:8px;
 }
+
 
 .col-6{
     width:44%;
@@ -252,18 +235,25 @@ header h2{
 
 .col-12{
     height:100px;
+    margin-bottom:15px;
+    margin-top:15px;
 }
 
 .col-12 p{
     font-size:10px;
 }
 
+.info-separate{
+    width:100%;
+    height:500px;
+}
+
 .col-box{
-    width:65%;
+    width:90%;
     height:500px;
     background-color: gray;
     padding-left:72px;
-    padding-right:8%;
+    padding-right:7%;
     float:left;
     text-align:left;
 }
@@ -376,20 +366,120 @@ header h2{
     background-color: lightgray;
 }
 
-.album-covers{
+.recent.col-3.album{
+    margin:0 auto;
+    width:277px;
+    height:277px;
+}
+
+.recent.col-3{
+    height:277px;
 
 }
 
-.album{
+.col-3.album-covers{
+    margin:0 auto;
+    background-image: url("assets/ab67616d0000b27305e5dcfed62d4516d1d54581.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.album-covers{
+    width:100%;
+    height:100%;
+}
+
+.album1{
     height: 277px;
     width: 277px;
-    margin-top: 30px;
+    margin-top: 10px;
     position:relative;
 }
 
+.album2{
+    height: 277px;
+    width: 277px;
+    margin-top: 10px;
+    position:relative;
+}
+
+.album3{
+    height: 277px;
+    width: 277px;
+    margin-top: 10px;
+    position:relative;
+}
+
+.album4{
+    height: 277px;
+    width: 277px;
+    margin-top: 10px;
+    position:relative;
+}
+
+.album5{
+    height: 277px;
+    width: 277px;
+    margin-top: 10px;
+    position:relative;
+}
+
+.album6{
+    height: 277px;
+    width: 277px;
+    margin-top: 10px;
+    position:relative;
+}
+
+.album7{
+    height: 277px;
+    width: 277px;
+    margin-top: 10px;
+    position:relative;
+}
+
+.album8{
+    height: 277px;
+    width: 277px;
+    margin-top: 10px;
+    position:relative;
+}
+
+.album9{
+    height: 277px;
+    width: 277px;
+    margin-top: 10px;
+    position:relative;
+}
+
+.album10{
+    height: 277px;
+    width: 277px;
+    margin-top: 10px;
+    position:relative;
+}
+
+.album11{
+    height: 277px;
+    width: 277px;
+    margin-top: 10px;
+    position:relative;
+}
+
+.album12{
+    height: 277px;
+    width: 277px;
+    margin-top: 10px;
+    position:relative;
+    background-image: url("assets/Unknown.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+
 .album-overlay{
     width:100%;
-    height:207px;
+    height:217px;
     padding-top:69px;
     background-color: rgba(24, 25, 25, 0.5);
     cursor:pointer;
@@ -398,128 +488,81 @@ header h2{
 .album-hover{
     width:277px;
     height:277px;
+    opacity:0;
     position:relative;
 }
 
 .album-hover:hover{
-    background-color: rgba(24, 25, 25, 0.5);
-    cursor:pointer;
-    color:white;
+    opacity:1;
 }
 
-.album-info{
-
-}
-
-
-.album-one{
-    width:100%;
-    height:100%;
-    background-image: url("../assets/264x264Viper.jpeg");
-    background-size: cover;
-    background-position: center;
-}
-
-.album-two{
-    width:100%;
-    height:100%;
-    background-image: url("../assets/264x264Derivakat.jpeg");
-    background-size: cover;
-    background-position: center;
-}
-
-.album-three{
-    width:100%;
-    height:300px;
-    background-image: url("../assets/California_Dreaming.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.album-four{
-    width:100%;
-    height:300px;
-    background-image: url("../assets/au_ra-panic-room-cover-art.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.album-five{
-    width:100%;
-    height:300px;
-    background-image: url("../assets/ab67616d0000b27305e5dcfed62d4516d1d54581.jpeg");
-    background-size: cover;
-    background-position: center;
+.list-heading{
+    
     
 }
 
-.album-six{
+.album-info{
+    height:60px;
     width:100%;
-    height:300px;
-    background-image: url("../assets/264x264Sleeping@Last.jpeg");
-    background-size: cover;
-    background-position: center;
+    background-color: black;
+    color:white;
 }
 
-.album-seven{
-    width:100%;
-    height:300px;
-    background-image: url("../assets/264x264.jpg");
-    background-size: cover;
-    background-position: center;
+.list-play{
+    font-size:12px;
+
 }
 
-.album-eight{
+.list-album{
     width:100%;
-    height:300px;  
-    background-image: url("../assets/artworks-N6df8xvMky7j-0-t500x500.jpg");
-    background-size: cover;
-    background-position: center;
+    margin-top:12px;
+    font-size:12px;
 }
 
-.album-nine{
-    width:100%;
-    height:300px;
-    background-image: url("../assets/ab67616d0000b27334702dd79ebdfb24ffbefb53.jpeg");
-    background-size: cover;
-    background-position: center;
+.list-play{
+
 }
 
-.album-ten{
+.list-block{
     width:100%;
-    height:300px;  
-    background-image: url("../assets/ab67616d0000b273f45d322f292c02c79d789d43.jpeg");
-    background-size: cover;
-    background-position: center;
+    float:left;
 }
 
-.album-eleven{
-    width:100%;
-    height:300px;
-    background-image: url("../assets/500x500.jpg");
-    background-size: cover;
-    background-position: center;
+.list-number{
+    margin-top:12px;
+    font-size:12px;
 }
 
-.album-twelve{
+.underline{
+    background-color: black;
     width:100%;
-    height:300px; 
-    background-image: url("../assets/Unknown.jpeg");
-    background-size: cover;
-    background-position: center;
+    height:1px;
+}
+
+.list-time{
+    background-color: white;
+}
+
+.block{
+    width:100%;
+    background-color:white;
+}
+
+.options{
+    height:3px;
+    width:12px;
+    margin-top:25px;
 }
 
 form{
-    width:45%;
+    width:50%;
     height:500px;
-    float:right;
     color:white;
     background-color: rgb(84, 121, 200);
     text-align: center;
     padding-bottom:5px;
     border-radius:15px;
-    margin-top: -70%;
-    margin-right: -25%;
+    margin-right: 4%;
 }
 
 label{
@@ -700,10 +743,11 @@ footer p{
     width:70px;
     height:70px;
     padding-top:10px;
-    padding-left:10px;
+    padding-left:10%;
     border-radius: 50%;
     border-color: black;
     color:white;
+    margin-left:15%;
 }
 
 .btn-five{
@@ -867,6 +911,10 @@ footer p{
 .play-list{
     width:100%;
     float:left;
+}
+
+.play-list:hover{
+
 }
 
 .graph-icon{
