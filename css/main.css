@@ -172,7 +172,6 @@ header h2{
 .col-3{
     width: 20%;
     height:300px;
-    background-color: white;
     text-align:center;
     margin-left:2%;
     margin-right:1%;
@@ -184,7 +183,7 @@ header h2{
     width:42%;
     height:600px;
     float:left;
-    margin:2%;
+    margin:1%;
     text-align:center;
     background-image: url("../assets/ab67616d0000b27382f7a1b5007d708c8838de25.jpeg");
     background-size: cover;
@@ -209,6 +208,7 @@ header h2{
     border-bottom-style:groove;
     border-bottom-color: black;
     float:left;
+    font-size: 15px;
 }
 
 
@@ -244,6 +244,11 @@ header h2{
 }
 
 .info-separate{
+    width:100%;
+    height:500px;
+}
+
+.info-box{
     width:100%;
     height:500px;
 }
@@ -379,7 +384,7 @@ header h2{
 
 .col-3.album-covers{
     margin:0 auto;
-    background-image: url("assets/ab67616d0000b27305e5dcfed62d4516d1d54581.jpeg");
+    background-image: url("../assets/ab67616d0000b27305e5dcfed62d4516d1d54581.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -393,77 +398,99 @@ header h2{
     height: 277px;
     width: 277px;
     margin-top: 10px;
-    position:relative;
+    background-image: url("../assets/264x264Viper.jpeg");
+    background-position: center;
+    background-size: cover;
 }
 
 .album2{
     height: 277px;
     width: 277px;
     margin-top: 10px;
-    position:relative;
+    background-image: url("../assets/264x264Derivakat.jpeg");
+    background-position: center;
+    background-size: cover;
 }
 
 .album3{
     height: 277px;
     width: 277px;
     margin-top: 10px;
-    position:relative;
+    background-image: url("../assets/California_Dreaming.png");
+    background-position: center;
+    background-size: cover;
 }
 
 .album4{
     height: 277px;
     width: 277px;
     margin-top: 10px;
-    position:relative;
+    background-image: url("../assets/au_ra-panic-room-cover-art.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .album5{
     height: 277px;
     width: 277px;
     margin-top: 10px;
-    position:relative;
+    background-image: url("../assets/ab67616d0000b27305e5dcfed62d4516d1d54581.jpeg");
+    background-position: center;
+    background-size: cover;
 }
 
 .album6{
     height: 277px;
     width: 277px;
     margin-top: 10px;
-    position:relative;
+    background-image: url("../assets/264x264Sleeping@Last.jpeg");
+    background-position: center;
+    background-size: cover;
 }
 
 .album7{
     height: 277px;
     width: 277px;
     margin-top: 10px;
-    position:relative;
+    background-image: url("../assets/264x264.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .album8{
     height: 277px;
     width: 277px;
     margin-top: 10px;
-    position:relative;
+    background-image: url("../assets/artworks-N6df8xvMky7j-0-t500x500.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .album9{
     height: 277px;
     width: 277px;
     margin-top: 10px;
-    position:relative;
+    background-image: url("../assets/ab67616d0000b27334702dd79ebdfb24ffbefb53.jpeg");
+    background-position: center;
+    background-size: cover;
 }
 
 .album10{
     height: 277px;
     width: 277px;
     margin-top: 10px;
-    position:relative;
+    background-image: url("../assets/ab67616d0000b273f45d322f292c02c79d789d43.jpeg");
+    background-position: center;
+    background-size: cover;
 }
 
 .album11{
     height: 277px;
     width: 277px;
     margin-top: 10px;
-    position:relative;
+    background-image: url("../assets/500x500.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .album12{
@@ -471,7 +498,7 @@ header h2{
     width: 277px;
     margin-top: 10px;
     position:relative;
-    background-image: url("assets/Unknown.jpeg");
+    background-image: url("../assets/Unknown.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -509,23 +536,60 @@ header h2{
 }
 
 .list-play{
+    width:100%;
+    height:70px;
     font-size:12px;
-
+    text-align:center;
 }
 
 .list-album{
     width:100%;
+    height: 70px;
     margin-top:12px;
     font-size:12px;
 }
 
 .list-play{
-
+    width:100%;
+    height:70px;
 }
 
-.list-block{
+
+
+.list-block1{
     width:100%;
+    height:70px;
     float:left;
+}
+
+.list-block2{
+    width:100%;
+    height:70px;
+    float:left;
+}
+
+.list-block3{
+    width:100%;
+    height:70px;
+    float:left;
+}
+
+.list-block4{
+    width:100%;
+    height:70px;
+    float:left;
+}
+
+.list-block5{
+    width:100%;
+    height:70px;
+    float:left;
+}
+
+.active-play{
+    width:100%;
+    height:70px;
+    margin-top:27px;
 }
 
 .list-number{
@@ -555,14 +619,14 @@ header h2{
 }
 
 form{
-    width:50%;
+    width:60%;
     height:500px;
     color:white;
     background-color: rgb(84, 121, 200);
     text-align: center;
     padding-bottom:5px;
     border-radius:15px;
-    margin-right: 4%;
+    margin-right: 3%;
 }
 
 label{
@@ -923,5 +987,10 @@ footer p{
     background-image: url("../assets/images.png");
     background-size: cover;
     background-position: center;
+}
+
+.bottom-playing{
+    width:100%;
+    height:100px;
 }
 
